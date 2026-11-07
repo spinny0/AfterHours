@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "AfterHours",
+  "version": "1.4.0",
+  "description": "Shares the focused website domain with AfterHours on this PC.",
+  "permissions": [
+    "tabs",
+    "nativeMessaging",
+    "alarms",
+    "scripting"
+  ],
+  "optional_host_permissions": ["http://*/*", "https://*/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "incognito": "not_allowed",
+  "action": {
+    "default_title": "AfterHours",
+    "default_popup": "popup.html"
+  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAw0cam5WKOPTvvB4uKzhj7IkpGPJRVW5hvYVYV2fraJnJTuGibYqyw6r/rhiia3B8jLkwAL8+RoQx4pTsRzar9uUZn2fBljXfSoF7Dd8Ofz68g8sSq34JtZl+TSPyTeB/8+NYE4O735mr6HIIGJPSUURcu8hWKn92OFnEReGAj+FoLTR2fq9+Nn5afJDxY4jqXsWg3ZQ1CE0HXZfZbOZD3Xi2M3aFjSvWaBTfZKw+0qZKwsmKbQTLSmF+vnZorVUvDr9J71eJ7wJmrAx/w92uwC2zyjVE5Hr4tSp9PEnhyByWzUnlXYeYaFVBYTHkhXfhlDjFkrgczk4xT4fEutz1qQIDAQAB"
+}
